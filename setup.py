@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='reverse_int',
-      version='0.2',
+      version='0.3',
       description='A Simpler lib to Reverse integer',
       long_description=long_description,
       long_description_content_type="text/markdown",
