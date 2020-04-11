@@ -1,8 +1,12 @@
 from setuptools import setup
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(name='reverse_int',
-      version='0.1',
+      version='0.2',
       description='A Simpler lib to Reverse integer',
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       url='https://github.com/Arinze1020/reverse_int.git',
       author='Ugwuanyi Arinze',
       author_email='arinzeugwuanyi@gmail.com',
